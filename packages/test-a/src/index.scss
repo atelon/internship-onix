@@ -1,0 +1,70 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './main.css';
+
+.s130 {
+  min-height: 0;
+}
+
+.ta-centered-text {
+  text-align: center;
+}
+
+.special p {
+  margin-bottom: 0.3em;
+}
+
+.special div {
+  margin-bottom: 2.2em;
+}
+
+.c-black{
+  color: black;
+}
+
+.c-gray {
+  color: gray;
+}
+
+.p-bold {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.form-normalized {
+  padding-top: 0 !important;
+}
+
+.m-overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255,255,255,0.8) url("loader.gif") center no-repeat;
+}
+
+body.loading{
+    overflow: hidden;
+}
+
+body.loading .m-overlay{
+    display: block;
+}
+
+// autocomplete
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto;}
+.autocomplete-suggestion { padding-bottom: 3px; padding-top: 3px; white-space: nowrap; overflow: hidden;  display: flex;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.suggestion-svg-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+}
+

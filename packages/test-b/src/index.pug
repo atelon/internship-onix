@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+  head
+    meta(http-equiv="Content-Type", content="text/html; charset=UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="author", content="atelon")
+    title Reminder
+    link(href="index.scss", rel="stylesheet")
+  body
+    main(class="reminder-form")
+      div(id="my-container" class="cotainer")
+        div(class="row justify-content-center container-fluid margin-top-8vh")
+          div(class="col-md-5")
+            form(class="bordered-form" action="", method="")
+              div(class="form-group")
+                input(type="text", class="form-control", id="titleReminder", placeholder="Title", autocomplete="off")
+              div(class="form-group")
+                div(class="input-group mb-3")
+                  input(id="datetimepicker", type="text", class="form-control", aria-describedby="basic-addon2", autocomplete="off")
+                  div(class="input-group-append")
+                    span(class="input-group-text" id="basic-addon2")
+                      svg(xmlns="http://www.w3.org/2000/svg", viewBox="0 0 24 24", width="24", height="24")
+                        path(fill-rule="evenodd", d="M6.75 0a.75.75 0 01.75.75V3h9V.75a.75.75 0 011.5 0V3h2.75c.966 0 1.75.784 1.75 1.75v16a1.75 1.75 0 01-1.75 1.75H3.25a1.75 1.75 0 01-1.75-1.75v-16C1.5 3.784 2.284 3 3.25 3H6V.75A.75.75 0 016.75 0zm-3.5 4.5a.25.25 0 00-.25.25V8h18V4.75a.25.25 0 00-.25-.25H3.25zM21 9.5H3v11.25c0 .138.112.25.25.25h17.5a.25.25 0 00.25-.25V9.5z")
+              div(class="col text-center")
+                button(id="submitBtn", type="button", class="btn colored-light-gray") Submit
+        div(id="no-reminders", class="row justify-content-center container-fluid margin-top-8vh r-div-hidden")
+          div(class="col text-center")
+            p
+              b No reminders. Free days :3
+        div(id="reminders-caption" class="row justify-content-center container-fluid margin-top-8vh r-div-hidden")
+          div(class="col text-center")
+            p
+              b Reminders
+    script(type="text/javascript", src="index.js")

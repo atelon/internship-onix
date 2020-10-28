@@ -1,0 +1,23 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './jquery.datetimepicker.min.css';
+
+.margin-top-8vh{
+  margin-top: 8vh;
+}
+
+.r-div-hidden{
+  display: none;
+}
+
+.bordered-form{
+  border: 1.5px solid black;
+  padding-top: 6vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+  padding-bottom: 6vh;
+}
+
+.colored-light-gray{
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}

@@ -1,0 +1,24 @@
+{
+	"name": "test-a",
+	"version": "0.0.1",
+	"description": "Test A - basic level",
+	"private": true,
+	"dependencies": {
+		"bootstrap": "^4.5.3",
+		"bootstrap-autocomplete": "^2.3.7",
+		"jquery": "^3.5.1"
+	},
+	"devDependencies": {
+		"parcel": "^2.0.0-beta.1",
+		"pug": "^3.0.0",
+		"sass": "^1.27.0",
+		"xo": "^0.34.1"
+	},
+	"scripts": {
+		"build-dev": "parcel src/index.pug",
+		"build-prod": "parcel build src/index.pug",
+		"test": "xo --fix"
+	},
+	"author": "Atelon",
+	"license": "MIT"
+}

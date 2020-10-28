@@ -1,0 +1,24 @@
+# node_modules folder
+node_modules/
+
+# Parcel cache folder
+.parcel-cache/
+
+# Dist folder
+dist/
+
+# Lerna log
+lerna-debug.log
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+
+# Mac DS_Store Files
+.DS_Store
+
+# Logs
+*.log
+
+# Linux OS files
+desktop.ini
