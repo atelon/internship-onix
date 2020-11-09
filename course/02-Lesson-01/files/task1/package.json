@@ -1,0 +1,25 @@
+{
+	"name": "task-1",
+	"version": "0.0.1",
+	"description": "The package displays the sum of the largest and smallest digit of entered number using only operations on numbers",
+	"type": "module",
+	"private": true,
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^7.2.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.22.1",
+		"npm-run-all": "^4.1.5"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"test": "npm-run-all test:*",
+		"test:eslint-index": "eslint -c configs/eslint.index.config index.js",
+		"test:eslint-others": "eslint -c configs/eslint.others.config src/*.js"
+	},
+	"engines": {
+		"node": ">=14.10.1"
+	},
+	"author": "Atelon",
+	"license": "MIT"
+}
